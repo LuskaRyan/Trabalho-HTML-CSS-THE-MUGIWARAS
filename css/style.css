@@ -1,0 +1,382 @@
+@font-face{
+    font-family: storyboo;
+    src: url(../fonts/Storyboo.TTF);
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+a:link,  a:visited, a:active{
+    color: #ffffff;
+    text-decoration: none;
+}
+/*CLASSES DE PADRONIZAÇÃO DO SITE*/
+/* entre 1200 e 1500*/
+.conteudo{
+    width: 1400px;
+    height: inherit;
+    background-color: rgba(0,0,0,0.7);
+
+}
+
+.center{
+     /*Centralizar*/
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.background{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h1{
+    font-family: "comic sans ms";
+    font-size: 30px;
+    color:white;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    padding-top: 20px;
+    padding-left: 30px;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+}
+
+}
+
+p{
+    font-size: 18px;
+    color: white;
+    text-align: justify;
+/*    font-family: verdana;*/
+    line-height: 1.5;
+    width: inherit;
+    min-height: 18px;
+    height: auto;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    box-sizing: border-box;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+
+
+/*SEÇÃO DO MENU*/
+
+#caixa_menu{
+    width: 100%;
+    height: 85px;
+    background-color: black;
+    position: fixed;
+}
+
+#caixa_menu .conteudo{
+    background-color:black;
+}
+
+#menu_foto{
+    width: 100px;
+    height: inherit;
+    background-color: black;
+    background-image: url(../imagens/MugiwaraZoro.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: repeat;
+    margin-left: 20px;
+    margin-right: 130px;
+    float: left;
+}
+
+#menu_foto:hover{
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+#menu{
+    width: 930px;
+    height: inherit;
+    background-color: black;
+    float: left;
+    padding-top: 20px;
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+
+.menu_itens{
+  width: 150px;
+  height: 40px;
+  float: left;
+  background-color: red;
+  margin-right: 10px;
+  margin-left: 15px;
+  text-align: center;
+  padding-top: 8px;
+  box-sizing: border-box;
+  color: white;
+}
+
+.menu_itens:hover{
+  cursor: pointer;
+  background-color: red;
+}
+
+.menu_itens:hover > #submenu{
+    display: block;
+}
+
+
+#submenu{
+  width: 150px;
+  min-height: 40px;
+  height: auto;
+  background-color: red;
+  margin-top: 9px;
+  display: none;
+}
+.submenu_itens{
+    width: inherit;
+    height: 40px;
+    padding-top: 8px;
+    box-sizing: border-box;
+    font-family: cursive;
+    color: white;
+}
+
+.submenu_itens:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+/*    transition: 1s;*/
+}
+/* SEÇÃO DO CABEÇALHO */
+
+#cabecalho{
+  width: 100%;
+  height: 700px;
+  background-image: url(../imagens/BannerOP.png);
+  padding-top: 250px;
+  box-sizing: border-box;
+}
+
+#cabecalho:hover > #slogan{
+  margin-left: 43%;
+/*    margin-left: auto;*/
+/*   margin-right: auto; */
+  transition: 3s;
+  position: fixed;
+}
+
+/*pai*/
+#divzona{
+  width: 100%;
+  height: 1840px;
+  background-image: url('../imagens/BannerOP.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+
+}
+
+.conteudoM{
+  width: 1024px;
+  height: inherit;
+  background-color: red;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.sup{
+  width: 100%;
+  height: 350px;
+}
+.supIMG{
+  width: 200px;
+  height: 200px;
+  background-color: purple;
+  float:left;
+  margin-right: 15px;
+  border-radius: 15px;
+}
+img{
+  height: 100%;
+  width: 100%;
+  border-radius: 15px;
+}
+p{
+  color:white;
+  width:inherit;
+  height:inherit;
+}
+.supTXT{
+  width:400px;
+  height: 200px;
+  background-color: rgba(0,0,0,0.5);
+  float:left;
+  color:white;
+  overflow: hidden;
+}
+.supIMG_TXT{
+  height:300px;
+  width:700px;
+  padding-top: 60px;
+  padding-left: 50px;
+  float:left;
+}
+.tituloMUGIWARAS{
+  color:white;
+  font-size: 15px;
+  text-align: center;
+  margin:0px;
+}
+
+#divzona2{
+  width: 100%;
+  height: 850px;
+  background-image: url('../imagens/BannerOP.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.supIMG_NAVIO{
+  width: 400px;
+  height: 400px;
+  background-color: purple;
+  margin-bottom: 15px;
+  border-radius: 15px;
+}
+.supTXT_NAVIO{
+  width:400px;
+  height: 260px;
+  background-color: background-color: rgba(0,0,0,0.7);
+  overflow: hidden;
+}
+
+#divzona3{
+  width: 100%;
+  height: 1840px;
+  background-image: url('../imagens/BannerOP.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+
+#divzona4{
+  width: 100%;
+  height: 3890px;
+  background-image: url('../imagens/BannerOP.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+h3{
+  font-family: "comic sans ms";
+  font-size: 35px;
+  color:	beige;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  padding-top: 20px;
+  padding-left: 30px;
+  box-sizing: border-box;
+  margin-bottom: 30px;
+}
+.supIMG_RECOMPENSA{
+  width: 350px;
+  height: 500px;
+  background-color: purple;
+  margin-bottom: 15px;
+  border-radius: 15px;
+}
+.supTXT_RECOMPENSA{
+  width:350px;
+  height: 215px;
+  background-color:background-color: rgba(0,0,0,0.7);
+  overflow: hidden;
+}
+
+.supIMG_TXT_RECOMPENSA{
+  height:300px;
+  width:700px;
+  padding-top: 60px;
+  padding-left: 50px;
+  float:left;
+}
+footer{
+  width: 100%;
+  height: 100px;
+  background-color: ;
+  background-image: url('../imagens/BannerOP.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.rodapeIMG{
+  height:90px;
+  width: 90px;
+  background-color: rgba(0,0,0,0.0);
+  float:left;
+  margin-right: 100px;
+}
+.rodapeIMG img {
+  width: 100%;
+  height: 100%;
+}
+#footer_foto:hover{
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.rodapeTXT{
+  height:90px;
+  width:700px;
+  background-color: rgba(0,0,0,0.7);
+  float:left;
+  overflow:hidden;
+}
+#divzona5{
+  width: 100%;
+  height: 839px;
+  background-image: url('../imagens/BannerOP.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.lista_recompensa{
+  padding-top: 15px;
+  color:white;
+  text-align: center;
+  font-size: 22px;
+}
+.lista_mugiwaras{
+  text-align:justify;
+  padding-top: 35px;
+  padding-bottom: 10px;
+  font-size:18px;
+  padding-left: 15px;
+}
+.supTXT_JOLLY{
+  width:400px;
+  height: 260px;
+  background-color: background-color: rgba(0,0,0,0.7);
+  overflow: hidden;
+}
+#pula_foto:hover{
+  cursor: pointer;
+  transform: scale(1.1);
+}
